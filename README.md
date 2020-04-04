@@ -1,3 +1,7 @@
+# preact-widget-css
+
+Forked [official widget template](https://github.com/preactjs-templates/widget) to drop SASS, update deps, dropped `h` (assumes using only JSX) etc.
+
 <div align="center">
   <img src="https://github.com/preactjs-templates/widget/blob/master/readme-logo.png?raw=true" height=300px>
   <br />
@@ -10,10 +14,17 @@
 
 ```
 $ npm install -g preact-cli
-$ preact create widget my-widget
+$ preact create tomByrer/widget my-widget
 $ cd my-widget
 $ npm install
 $ npm run dev
+```
+Or
+```
+$ yarn global add preact-cli
+$ preact create tomByrer/widget my-widget
+$ cd my-widget
+$ yarn && yarn dev
 ```
 
 ### Commands

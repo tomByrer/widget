@@ -1,5 +1,5 @@
-import { h, Component } from "preact";
-import "./style.scss";
+import { Component, render } from "preact";
+import "./style.css";
 
 export default class App extends Component {
   render(props) {
